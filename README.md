@@ -27,7 +27,7 @@ public class Main{
 
         Integer TotalIndex = gS.totalIndex(testString,"," ,"This is your data input");
 
-        //.totalIndex gets the totalIndex, it will get u the first char of the the search
+        //.totalIndex gets the totalIndex, it will get you the first char of the the searchString in the testString
 
         System.out.println(TotalIndex);
 
