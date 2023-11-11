@@ -28,7 +28,6 @@ public class Main{
     }
 }
 ```
-# Coming Soon
-  Total Index
+
   
 
