@@ -34,7 +34,7 @@ public class Main{
     }
 }
 ```
-## Index Overview:
+# Index Overview:
 This is a overview of the two Index substring fetcher
 
 # TotalIndex:
@@ -43,7 +43,6 @@ This is a overview of the two Index substring fetcher
     ```Java
     getSubstring gS = new getSubstring();
     int TotalIndex = gs.totalIndex(inputString,splitChar,searchString)
-    
     ```
  # ListIndex:
   ListIndex will give you the Index for the Arraylist from .split(). 
@@ -51,12 +50,11 @@ This is a overview of the two Index substring fetcher
     getSubstring gS = new getSubstring();
     int ListIndex = gS.getListIndex(gS.split(input, splitChar),searchString);
     ```
-  ## getSubstring:
+  # getSubstring:
   With .getSubstring you can check if the searchString is in the ArrayList.
     ```Java
      getSubstring gS = new getSubstring();
      String searchConfirmation = gS.getSubstring(input, searchChar, searchString);
-     
     ```
   
   
