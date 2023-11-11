@@ -2,7 +2,8 @@
 This is a Java repo that can fetch your data. Input your data and get u the index of a substring or the substring. 
 
 # Basic Usage
-```
+```Java
+
 public class getSubstring{
 
     public static void main(String[] args) throws IOException {
