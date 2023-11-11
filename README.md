@@ -11,7 +11,7 @@ public class getSubstring{
 
         getSubstring gS = new getSubstring();
 
-        String searchConfirmation =   gS.getSubstring(testString, ",", "This is ur data input");
+        String searchConfirmation = gS.getSubstring(testString, ",", "This is ur data input");
 
         //.getSubstring will comfirm u that the String is in the data input
 
