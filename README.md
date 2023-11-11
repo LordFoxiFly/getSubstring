@@ -4,7 +4,7 @@ This is a Java repo that can fetch your data. Input your data and get u the inde
 # Basic Usage
 ```Java
 
-public class getSubstring{
+public class Main{
 
     public static void main(String[] args) throws IOException {
         String testString = "This is ur data input, here u can put ur data in";
