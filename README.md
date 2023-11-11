@@ -1,6 +1,6 @@
 # getSubstring
 This is a Java repo that can fetch your data. Input your data and get u the index of a substring or check if the substring 
-consist. 
+exists. 
 
 # Basic Usage
 ```Java
