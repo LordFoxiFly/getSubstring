@@ -4,6 +4,7 @@ import java.awt.*;
 import java.io.IOException;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.PatternSyntaxException;
 
 public class getSubstring{
@@ -40,6 +41,19 @@ public class getSubstring{
         int index = getListIndex(split(input,split),search);
         String output ="Confirmation: ] " + Color.red + List.get(index) +  " [ is in the data input";
         return output;
+    }
+    public Integer totalIndex(String input, String split,String search){
+        ArrayList<String> List = split(input,split);
+        int index = getListIndex(split(input,split),search);
+        ArrayList<String> newList = new ArrayList<>();
+        StringBuilder sB = new StringBuilder();
+        for (int i = 0; i<=index;i++){
+            sB.append(List.get(i));
+        }
+        System.out.println(sB.toString());
+        int tIndex = (sB.toString().length() - search.length()+1);
+
+        return tIndex;
     }
 }
 

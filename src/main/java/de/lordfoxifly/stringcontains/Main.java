@@ -23,5 +23,10 @@ public class Main {
 
         System.out.println(ListIndex);
 
+        Integer TotalIndex = gS.totalIndex(testString,"," ,"This is ur data input");
+
+        //.totalIndex gets the totalIndex, it will get u the first char of the the search
+
+        System.out.println(TotalIndex);
     }
 }
