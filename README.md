@@ -5,29 +5,32 @@ exists.
 # Total Overview
 ```Java
 
-public static void main(String[] args)  {
-        String testString = "This is ur data input, here you can put your data in";
+public class Main{
 
-        gS.getListIndex(gS.split(testString, ","),"This is your data input");
+    public static void main(String[] args) throws IOException {
+        String testString = "This is ur data input, here u can put your data in";
 
-        String searchConfirmation =   gS.getSubstring(testString, ",", "This is your data input");
+        getSubstring gS = new getSubstring();
+
+        String searchConfirmation = gS.getSubstring(testString, ",", "This is your data input");
 
         //.getSubstring will comfirm u that the String is in the data input
 
         System.out.println(searchConfirmation);
 
-        Integer ListIndex = getSubstring.getListIndex(getSubstring.split(testString, ","),"This is your data input");
+        Integer ListIndex = gS.getListIndex(gS.split(testString, ","),"This is your data input");
 
         //.getIndex will get u the ListIndex(Index of the Arraylist) of the data
         //.split will split the String into a Arraylist
 
         System.out.println(ListIndex);
 
-        Integer TotalIndex = getSubstring.totalIndex(testString,"," ,"This is your data input");
+        Integer TotalIndex = gS.totalIndex(testString,"," ,"This is your data input");
 
-        //.totalIndex gets the totalIndex, it will get you the first char of the the search
+        //.totalIndex gets the totalIndex, it will get you the first char of the the searchString in the testString
 
         System.out.println(TotalIndex);
+
     }
 }
 ```
@@ -38,12 +41,14 @@ This is a overview of the two Index substring fetcher
  TotalIndex gets the Total index of the String that you were looking for.
 
  ```Java
-    getSubstring.totalIndex(input, searchChar ,searchString);
+    getSubstring gS = new getSubstring();
+    int TotalIndex = gs.totalIndex(inputString,splitChar,searchString)
 ```
  # ListIndex:
   ListIndex will give you the Index for the Arraylist from .split(). 
 ```Java
-    getSubstring.getListIndex(input, searchChar, searchString);
+    getSubstring gS = new getSubstring();
+    int ListIndex = gS.getListIndex(gS.split(input, splitChar),searchString);
  ```
   # getSubstring:
   With .getSubstring you can check if the searchString is in the ArrayList.
@@ -51,7 +56,3 @@ This is a overview of the two Index substring fetcher
      getSubstring gS = new getSubstring();
      String searchConfirmation = gS.getSubstring(input, searchChar, searchString);
   ```
-  
-  
-  
-
