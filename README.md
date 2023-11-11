@@ -40,22 +40,22 @@ This is a overview of the two Index substring fetcher
 # TotalIndex:
  TotalIndex gets the Total index of the String that you were looking for.
 
-    ```Java
+ ```Java
     getSubstring gS = new getSubstring();
     int TotalIndex = gs.totalIndex(inputString,splitChar,searchString)
-    ```
+```
  # ListIndex:
   ListIndex will give you the Index for the Arraylist from .split(). 
-    ```Java
+```Java
     getSubstring gS = new getSubstring();
     int ListIndex = gS.getListIndex(gS.split(input, splitChar),searchString);
-    ```
+ ```
   # getSubstring:
   With .getSubstring you can check if the searchString is in the ArrayList.
-    ```Java
+  ```Java
      getSubstring gS = new getSubstring();
      String searchConfirmation = gS.getSubstring(input, searchChar, searchString);
-    ```
+  ```
   
   
   
