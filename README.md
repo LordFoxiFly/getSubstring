@@ -51,7 +51,7 @@ This is a overview of the two Index substring fetcher
     getSubstring gS = new getSubstring();
     int ListIndex = gS.getListIndex(gS.split(input, splitChar),searchString);
     ```
-  ##getSubstring:
+  ## getSubstring:
   With .getSubstring you can check if the searchString is in the ArrayList.
     ```Java
      getSubstring gS = new getSubstring();
